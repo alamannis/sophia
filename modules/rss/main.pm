@@ -1,6 +1,5 @@
 use strict;
 use warnings;
-use XML::LibXML;
 
 sophia_module_add("rss.main", "1.0", \&init_rss_main, \&deinit_rss_main);
 
