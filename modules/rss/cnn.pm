@@ -20,7 +20,7 @@ sub deinit_rss_cnn {
 }
 
 my $CNN_LastDate = "test";
-my @CNN_Channels = ("#divine-bots");
+my @CNN_Channels = ("#divine-bots", "#main");
 
 sub cnn_latest_init {
     my $objXML = loadXML("http://rss.cnn.com/rss/cnn_latest.rss");
